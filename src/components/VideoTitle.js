@@ -1,7 +1,6 @@
 import React from "react";
 
 const VideoTitle = ({ title, overview, image }) => {
-  const imgURL = `https://image.tmdb.org/t/p/w500${image}`;
   return (
     <div className="absolute top-[50%] left-[4%] w-[100%] max-w-[50%]">
       {/* <img src={imgURL} alt={title} className="w-[40%] h-auto rounded-md" /> */}
